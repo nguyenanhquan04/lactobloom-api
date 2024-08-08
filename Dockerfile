@@ -3,6 +3,8 @@ FROM openjdk:17-jdk-slim
 
 # Set the working directory in the container
 WORKDIR /app
+COPY . .
+RUN mvn clean package
 
 # Copy the application's jar file to the container
 COPY target/LactoBloom-0.0.1-SNAPSHOT.jar /app/LactoBloom.jar
