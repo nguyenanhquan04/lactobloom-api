@@ -1,7 +1,4 @@
-# Ignore specific files and directories
 HELP.md
-target/
-!target/LactoBloom-0.0.1-SNAPSHOT.jar
 
 ### STS ###
 .apt_generated
